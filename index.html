@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+
+    <title>Explore</title>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+      <div class="container">
+        <div class="logo">
+          <h1>explore.</h1>
+        </div>
+
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#hero" class="link">Home</a></li>
+            <li><a href="#about" class="link">About Us</a></li>
+            <li><a href="#topDestination" class="link">Destination</a></li>
+            <li><a href="#products" class="link">Product</a></li>
+            <li><a href="#subscribe" class="link">Contact</a></li>
+            <div class="btn-navbar-inside">
+              <a href="">Log In</a>
+              <button>Register</button>
+            </div>
+          </ul>
+        </nav>
+
+        <div class="btn-navbar-outside">
+          <a href="">Log In</a>
+          <button>Register</button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <i class="ri-menu-line" class="menuBtn"></i>
+        </div>
+      </div>
+    </header>
+    <!-- NAVIGATION BAR -->
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Explore</h1>
+          <h2>Your favourite place</h2>
+        </div>
+        <img
+          src="assets/pexels-aleksandar-pasaric-1285625.jpg"
+          alt=""
+          class="img-bg"
+        />
+      </div>
+    </section>
+    <!-- Hero ends -->
+
+    <!-- Search  -->
+    <section id="search">
+      <div class="container">
+        <div class="search-box">
+          <div class="search-title">
+            <div class="search-content">
+              <p>Good Morning</p>
+              <h1>Where do you want to stay?</h1>
+            </div>
+            <div class="button-type">
+              <button class="btn-pick btn-active">
+                <img
+                  src="https://img.icons8.com/stickers/100/around-the-globe.png"
+                  alt="around-the-globe"
+                />
+                <p>Holiday</p>
+              </button>
+              <button class="btn-pick">
+                <img
+                  src="https://img.icons8.com/stickers/100/rv-campground.png"
+                  alt="rv-campground"
+                />
+                <p>Family</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="search-bar">
+            <!-- destination -->
+            <div class="destination">
+              <h1>Location</h1>
+              <div class="dropdown">
+                <div class="select">
+                  <span class="selected">Select location</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                  <li>France</li>
+                  <li>Italy</li>
+                  <li>England</li>
+                  <li>USA</li>
+                  <li>Brazil</li>
+                  <li>Australia</li>
+                  <li>Singapore</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Type -->
+            <div class="time-wrapper">
+              <div class="date">
+                <h1>Check-in</h1>
+                <div class="checkin-date">
+                  <input type="date" />
+                </div>
+              </div>
+
+              <div class="date">
+                <h1>Check-out</h1>
+                <div class="checkin-date">
+                  <input type="date" />
+                </div>
+              </div>
+            </div>
+
+            <!-- duration -->
+            <div class="duration">
+              <h1>Night</h1>
+              <div class="dropdown">
+                <div class="select">
+                  <span class="selected">1 night(s)</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                  <li>1 night</li>
+                  <li>2 nights</li>
+                  <li>3 nights</li>
+                  <li>4 nights</li>
+                  <li>5 nights</li>
+                  <li>1 week</li>
+                </ul>
+              </div>
+            </div>
+            <!-- button submit -->
+            <div class="search-icon">
+              <button>
+                <i class="ri-search-line"></i>
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Search Ends -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="about-content">
+            <h1>We are the best and most trusted travel agent</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="feature">
+              <i class="ri-checkbox-circle-fill"
+                ><span> Lorem ipsum dolor, sit amet consectetur.</span></i
+              >
+              <i class="ri-checkbox-circle-fill"
+                ><span> Lorem ipsum dolor, sit amet consectetur.</span></i
+              >
+              <i class="ri-checkbox-circle-fill"
+                ><span>Lorem ipsum dolor, sit amet consectetur.</span></i
+              >
+            </div>
+          </div>
+
+          <div class="about-image">
+            <div class="box-img">
+              <img src="assets/product/london.jpg" alt="" />
+              <img src="assets/product/france2.jpg" alt="" />
+            </div>
+            <img src="assets/about-img.jpg" alt="" class="img-one" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About ends -->
+
+    <!-- Top Destination -->
+    <section id="topDestination">
+      <div class="container">
+        <div class="top-title">
+          <p>Feature</p>
+          <h1><span class="highlight">Top</span> Destinations</h1>
+        </div>
+
+        <div class="swiper top-carousel">
+          <div class="swiper-wrapper">
+            <!-- card 1 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-italy.jpg" alt="" />
+              <div class="wrapper-background"></div>
+              <div class="top-content">
+                <h1>Italy</h1>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-germany .jpg" alt="" />
+              <div class="top-content">
+                <h1>Germany</h1>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-london.jpg" alt="" />
+              <div class="top-content">
+                <h1>England</h1>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-paris.jpg" alt="" />
+              <div class="top-content">
+                <h1>France</h1>
+              </div>
+            </div>
+            <!-- card 5 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-japan.jpg" alt="" />
+              <div class="top-content">
+                <h1>Japan</h1>
+              </div>
+            </div>
+            <!-- card 6 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-singapore.jpg" alt="" />
+              <div class="top-content">
+                <h1>Singapore</h1>
+              </div>
+            </div>
+            <!-- card 7 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-swiss.jpg" alt="" />
+              <div class="top-content">
+                <h1>Swiss</h1>
+              </div>
+            </div>
+            <!-- card 8 -->
+            <div class="swiper-slide top-card">
+              <img src="assets/top-destination/top-thailand.jpg" alt="" />
+              <div class="top-content">
+                <h1>Thailand</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Top Destination Ends -->
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="services-title">
+          <p>Services</p>
+          <h1><span class="highlight">Our</span> Services</h1>
+        </div>
+
+        <div class="service-box">
+          <div class="card-services">
+            <div class="services-icon">
+              <i class="ri-price-tag-3-line"></i>
+            </div>
+            <div class="services-content">
+              <h1>Best Price</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Consequuntur autem cupiditate
+              </p>
+            </div>
+          </div>
+
+          <div class="card-services">
+            <div class="services-icon">
+              <i class="ri-user-5-line"></i>
+            </div>
+            <div class="services-content">
+              <h1>Happy Travellers</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Consequuntur autem cupiditate
+              </p>
+            </div>
+          </div>
+
+          <div class="card-services">
+            <div class="services-icon">
+              <i class="ri-secure-payment-fill"></i>
+            </div>
+            <div class="services-content">
+              <h1>Secured Payment</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Consequuntur autem cupiditate
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Ends -->
+
+    <!-- Product -->
+    <section id="products">
+      <div class="container">
+        <div class="product-title">
+          <p>Offer</p>
+          <h1><span class="highlight">Popular</span> Destination</h1>
+        </div>
+
+        <div class="card-container">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/product/iceland.jpg" alt="" />
+              <div class="card-title">
+                <h1>New Zealand</h1>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h1>$49 <span>/night</span></h1>
+              <div class="rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+              </div>
+
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Possimus asperiores voluptate hic, porro
+                </p>
+
+                <div class="icon-featureCard">
+                  <img src="assets/Icon/icons8-snorkel-50.png" alt="" />
+                  <img src="assets/Icon/icons8-sun-lounger-50.png" alt="" />
+                </div>
+
+                <div class="button-cardInfo">
+                  <a href="">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 1 -->
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/product/Italy.jpg" alt="" />
+              <div class="card-title">
+                <h1>Italy</h1>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h1>$69 <span>/night</span></h1>
+              <div class="rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+              </div>
+
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Possimus asperiores voluptate hic, porro
+                </p>
+
+                <div class="icon-featureCard">
+                  <img src="assets/Icon/icons8-snorkel-50.png" alt="" />
+                  <img src="assets/Icon/icons8-sun-lounger-50.png" alt="" />
+                </div>
+
+                <div class="button-cardInfo">
+                  <a href="">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/product/japan.jpg" alt="" />
+              <div class="card-title">
+                <h1>Japan</h1>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h1>$89 <span>/night</span></h1>
+              <div class="rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+              </div>
+
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Possimus asperiores voluptate hic, porro
+                </p>
+
+                <div class="icon-featureCard">
+                  <img src="assets/Icon/icons8-snorkel-50.png" alt="" />
+                  <img src="assets/Icon/icons8-sun-lounger-50.png" alt="" />
+                </div>
+
+                <div class="button-cardInfo">
+                  <a href="">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+
+          <!-- Card 4 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/product/france2.jpg" alt="" />
+              <div class="card-title">
+                <h1>France</h1>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h1>$99 <span>/night</span></h1>
+              <div class="rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+              </div>
+
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Possimus asperiores voluptate hic, porro
+                </p>
+
+                <div class="icon-featureCard">
+                  <img src="assets/Icon/icons8-snorkel-50.png" alt="" />
+                  <img src="assets/Icon/icons8-sun-lounger-50.png" alt="" />
+                </div>
+
+                <div class="button-cardInfo">
+                  <a href="">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+        </div>
+      </div>
+    </section>
+    <!-- Products Ends -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="galleryTitle">
+          <p>Gallery</p>
+          <h1><span class="highlight">Recent</span> Vacations</h1>
+        </div>
+
+        <div class="galleryCard-wrapper">
+          <div class="col firstCol">
+            <img
+              src="https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+              class="galleryImage"
+            />
+            <img
+              src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+              class="galleryImage"
+            />
+          </div>
+          <div class="col secondCol">
+            <img
+              src="https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+          <div class="col col-l">
+            <div class="row verticalRow">
+              <img
+                src="https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="galleryImage"
+              />
+              <img
+                src="https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="galleryImage"
+              />
+            </div>
+            <div class="row widthRow">
+              <img
+                src="https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Ends -->
+
+    <!-- Subscribe -->
+    <section id="subscribe">
+      <div class="container">
+        <div class="subscribe-content">
+          <h1>Subscribe to our Newsletter</h1>
+          <p>Join the trends now !!</p>
+
+          <div class="form-subscribe">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Enter your email" required />
+            <button>Subscribe</button>
+          </div>
+
+          <div class="icon-subscribe">
+            <div class="call">
+              <img src="assets/Icon/icons8-sign-50.png" alt="" />
+              <h2>Give Us A Call</h2>
+              <p>office landline : +62 978978979</p>
+              <p>Mobile : +62 123121312</p>
+            </div>
+
+            <div class="call">
+              <img src="assets/Icon/icons8-fast-track-50.png" alt="" />
+
+              <h2>Come to Office</h2>
+              <p>Cakung, East Jakarta</p>
+            </div>
+
+            <div class="call">
+              <img src="assets/Icon/icons8-around-the-globe-50.png" alt="" />
+
+              <h2>Send Us A Message</h2>
+              <p>explore@gmail.com</p>
+              <p>exploreTravel@bussiness.com</p>
+            </div>
+          </div>
+        </div>
+        <!-- <img src="assets/subcribe.jpg" alt="" class="img-bg" /> -->
+      </div>
+    </section>
+    <!-- Subscribe Ends -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="about">
+            <div class="about-text">
+              <h1 class="title">Explore</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                deserunt accusamus harum sed asperiores, fugit maxime cum
+                excepturi similique corrupti illum?
+              </p>
+            </div>
+
+            <div class="social-icon">
+              <a href="" class="social-links linksOne">
+                <i class="ri-twitter-fill socialSvg"></i>
+              </a>
+              <a href="" class="social-links linksTwo">
+                <i class="ri-facebook-fill socialSvg"></i>
+              </a>
+              <a href="" class="social-links linksThree">
+                <i class="ri-pinterest-fill socialSvg"></i>
+              </a>
+              <a href="" class="social-links linksFour">
+                <i class="ri-instagram-line socialSvg"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="information">
+            <h2 class="title">Information</h2>
+            <div class="information-content">
+              <li>About</li>
+              <li>Service</li>
+              <li>Top Destinations</li>
+              <li>Privacy and policy</li>
+              <li>Become a partner</li>
+              <li>Booking conditions</li>
+            </div>
+          </div>
+
+          <div class="bestdeals">
+            <h2 class="title">Top Deals</h2>
+            <div class="bestdeals-content">
+              <li>Luxury Hotel</li>
+              <li>Honeymoon Vacation</li>
+              <li>Family Tours</li>
+              <li>Japan tours</li>
+              <li>Korean Tours</li>
+              <li>Beach & Resorts</li>
+            </div>
+          </div>
+
+          <div class="question">
+            <h2 class="title">Contact</h2>
+            <div class="contact-wrapper">
+              <div class="location">
+                <i class="ri-map-pin-fill"></i>
+                <p>East Jakarta, Indonesia</p>
+              </div>
+
+              <div class="phone">
+                <i class="ri-phone-fill"></i>
+                <p>+62 858 8809 9909</p>
+              </div>
+
+              <div class="email">
+                <i class="ri-mail-fill"></i>
+                <p>exploreworld@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <h3>
+            Copyright ©2023 All rights reserved | This template is made by OktaF
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Ends -->
+
+    <!-- Swiper CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
